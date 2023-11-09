@@ -1,5 +1,4 @@
 from pytube import YouTube
-from sys import argv
 
 url = input("Enter video URL here: ")
 yt = YouTube(url)
